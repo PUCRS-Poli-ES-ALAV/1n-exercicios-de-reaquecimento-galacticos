@@ -1,4 +1,4 @@
-def soma_nat(n1,n2):
+def soma_nat(n1:int,n2:int) -> int:
     if n1 >= 1:
         return 1 + soma_nat(n1-1, n2)
     if n1 == 0 and n2 >= 1:
